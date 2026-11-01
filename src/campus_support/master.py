@@ -85,12 +85,15 @@ def build_master(cfg: Config):
 
     for _ in range(cfg.n_learners):
         af = _rand_date(rng, date(2022, 8, 22), date(2026, 6, 30) if rng.random() < 0.95 else date(2026, 8, 24))
-        at = _rand_date(rng, date(2026, 2, 1), date(2026, 10, 15)) if rng.random() < 0.08 else None
+        at = None
+        if rng.random() < 0.08:       # graduated / left; must be after the start date
+            lo = max(date(2026, 2, 1), af + timedelta(days=60))
+            at = _rand_date(rng, lo, date(2026, 10, 15)) if lo <= date(2026, 10, 15) else None
         lvl = rng.choices(["undergraduate", "graduate", "non_degree"], [70, 25, 5])[0]
         person("ROLE-LEARNER", rng.choice(K.DEPTS), None, af, at, lvl)
     for _ in range(cfg.n_instructors):
         af = _rand_date(rng, date(2008, 8, 1), date(2025, 8, 1))
-        at = _rand_date(rng, date(2026, 3, 1), date(2026, 9, 30)) if rng.random() < 0.03 else None
+        at = _rand_date(rng, date(2026, 3, 1), date(2026, 9, 30)) if rng.random() < 0.03 else None   # af <= 2025
         person("ROLE-INSTRUCTOR", rng.choice(K.DEPTS), None, af, at)
     for _ in range(cfg.n_acad_admin_requesters):
         person("ROLE-ACADADMIN", "ADM", None, _rand_date(rng, date(2010, 8, 1), date(2024, 8, 1)), None)

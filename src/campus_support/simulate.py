@@ -79,6 +79,8 @@ def make_profiles(cfg: Config, ctx: Context, t: dict, meta: dict) -> list[dict]:
                 w = 0.6                       # asking about a withdrawn policy -> "no current policy" case
             elif rd and (rd - d).days < 30:
                 w = 0.0                       # avoid answers straddling the withdrawal date
+            if w and any(0 < (v["effective_from"] - d).days <= 3 for v in ctx.versions[pid][1:]):
+                w *= 8.0                      # boundary coverage: a new version takes effect within days of the ticket
             ws.append(w)
         if sum(ws) == 0:
             ws = [1.0] * len(cands)
@@ -266,7 +268,7 @@ def build_bundle(n: int, p: dict, ctx: Context, meta: dict, cfg: Config) -> dict
             asgs.append(dict(team_id=tier2, assignee_id=h2, type="escalation", rule_id=None, assigned_at=as2,
                              ended_at=None, end_reason=None))
             E("assigned", as2, "staff", "tier2_pickup")
-            t2 = min(max(60, int(lognorm(rng, 0.6 * res_t, 0.8))), 4 * res_t)
+            t2 = min(max(60, int(lognorm(rng, 0.6 * res_t, 0.9))), 6 * res_t)
             res2 = max(as2 + M(15), bm(cal2, as2, t2))
             if ok(res2):
                 dec = rng.choice(K.HANDOFF).format(team=ctx.teams[tier2]["team_name"], decision=rng.choice(K.DECISIONS))
