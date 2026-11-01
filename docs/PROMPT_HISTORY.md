@@ -4,26 +4,36 @@ Chronological record of the human prompts in the build session with Claude (Sonn
 (including typos). Tool output and code are not repeated here; the repository's git history shows the resulting work.
 
 ## Prompt 1 — kick-off
-> Hey claude I am giving you a problem statement, as a Sr. developer complete that project end-to-end. Use your expertise
-> in everything you know and build it properly and then help me push it in my github by name -
-> https://github.com/yugundhar-gurjalwar/. You have less then 6 hours to complete the entire project so without wasting
-> any time let's go for it.
+> Act as a **Senior Software Engineer and Solution Architect**. I will provide you with a project problem statement, and I want you to take ownership of building a complete, production-quality solution from end to end.
 
-*AI response (summary):* noted that no problem statement was attached; explained it cannot push to GitHub from its sandbox
-(no credentials, restricted network) and would instead deliver a push-ready repo with exact commands.
+Use your technical expertise, engineering best practices, and problem-solving skills to design, develop, test, and document the project.
+
+### Expectations
+
+1. **Understand and Analyze:** Carefully review the problem statement, identify all functional and non-functional requirements, and clarify any ambiguities before implementation.
+2. **Plan the Architecture:** Choose an appropriate technology stack, define the project architecture, data models, workflows, and implementation strategy.
+3. **End-to-End Development:** Implement all required features with clean, modular, maintainable, and scalable code. Follow industry-standard coding practices.
+4. **Testing and Validation:** Test the implementation thoroughly, identify and fix bugs, validate all major workflows, and ensure the solution meets the stated requirements.
+5. **Documentation:** Provide a comprehensive README covering the project overview, architecture, technology stack, setup instructions, execution steps, key features, and testing procedures.
+6. **Code Quality:** Avoid unnecessary complexity, incomplete implementations, placeholder logic, and hardcoded values. Make sensible engineering decisions and document important assumptions.
+7. **GitHub Integration:** Help me publish the completed project to my GitHub account:
+   **GitHub Profile:** https://github.com/yugundhar-gurjalwar/
+
+   Create a suitable repository for the project, organize the files professionally, add an appropriate `.gitignore`, and ensure no credentials, secrets, or sensitive information are committed. Guide me through the Git commands and publishing process.
+
+### Important Instructions
+
+- Approach this as a real-world software engineering project, not just a demonstration or prototype.
+- Prioritize correctness, reliability, maintainability, and completeness.
+- Do not skip requirements or silently make assumptions.
+- If something is unclear, ask me before making significant decisions.
+- Explain important technical decisions so I can understand and confidently present the implementation.
+- Before considering the project complete, provide a final checklist showing which requirements have been implemented, tested, and documented.
+
+I will now share the problem statement. First analyze it and propose an implementation plan. Once the plan is clear, proceed with development systematically until the project is ready for GitHub submission.
 
 ## Prompt 2 — problem statement + submission guidelines
-> This is the problem statement and I have also attached submission guidelines document for your reference.
+> I have shared the problem statement along with the submission guidelines document for your reference. Please review both documents thoroughly, analyze the requirements, and develop a complete solution that aligns with the specified objectives, deliverables, and evaluation criteria.
 
-*Attachments:* `attachment.txt` (the synthetic-data problem statement: campus support routing / policy-grounded answers /
-escalation; 10 granular generation steps) and `YottaFlex_AI_Candidate_Project_Submission_Guidelines.pdf` (72-hour window,
-executable code, public repo with meaningful commits, transparent LLM use with prompt history, visible reasoning).
+**Expected Action:** Based on my review, provide a structured implementation plan, identify the key tasks and technical requirements, and proceed with developing the solution step by step. Ensure that all deliverables comply with the submission guidelines and are ready for final submission.
 
-*AI response (summary):* read both documents, created a task list, and built the project end-to-end in the order recorded in
-`git log` (scaffold + schema → master data + rules → simulator + anomalies → exporters/validator/evaluator/CLI → tests → docs →
-datasets). The session hit an output-length limit once and resumed from the task list without changing direction.
-
-## Notes for reviewers
-- The guidelines ask for prompt history; this file is the complete set of human prompts from the session above.
-  If additional sessions were used (e.g. follow-up edits), **append those prompts here**.
-- Commit messages carry the `Co-Authored-By: Claude` trailer so AI involvement is visible per commit.
