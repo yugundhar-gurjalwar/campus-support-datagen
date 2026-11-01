@@ -4,3 +4,6 @@ __pycache__/
 *.egg-info/
 .venv/
 /tmp/
+# bulky regenerable artifacts of the full dataset (checksums remain in data/full/metadata/manifest.json)
+data/full/json/
+data/full/sql/seed.sql
