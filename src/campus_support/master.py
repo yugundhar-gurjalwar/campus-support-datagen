@@ -146,6 +146,12 @@ def build_master(cfg: Config):
         starts = [last_start]
         for _ in range(n_v - 1):
             starts.insert(0, starts[0] - timedelta(days=prng.randint(120, 420)))
+        # a version must already be in force before the ticket window, so that "no current policy"
+        # cases arise only from deliberate retirements, never from a not-yet-published policy
+        if n_v == 1 and starts[0] > date(2025, 11, 30):
+            starts[0] = _rand_date(prng, date(2025, 3, 1), date(2025, 11, 30))
+        elif starts[0] > date(2025, 12, 1):
+            starts[0] = date(2025, 12, 1) - timedelta(days=prng.randint(0, 300))
         title = f"{cat[3]}: {K.VARIANTS[j % len(K.VARIANTS)]}"
         owner = K.DOMAIN_TEAM[cat[1]]
         vals = [prng.choice(fd[4]) for fd in facts_def]

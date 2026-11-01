@@ -16,7 +16,7 @@ class Config:
     messages_per_ticket: float = 4.0     # total messages = round(tickets * this)
     anomaly_rate: float = 0.02           # share of tickets per injected anomaly type
     window_start: date = date(2026, 1, 5)    # ticket creation window
-    window_end: date = date(2026, 8, 31)
+    window_end: date = date(2026, 10, 23)
     as_of: datetime = datetime(2026, 10, 31, 23, 59)   # snapshot instant for derived state
 
     @property
@@ -50,8 +50,8 @@ class Config:
         if self.articles < self.policies:
             raise ValueError("articles must be >= number of policies "
                              f"({self.policies}); raise --articles")
-        if self.messages_per_ticket < 3.2:
-            raise ValueError("messages_per_ticket must be >= 3.2 (structural minimum of the workflow)")
+        if self.messages_per_ticket < 3.5:
+            raise ValueError("messages_per_ticket must be >= 3.5 (the workflow's structural messages average ~3.05/ticket)")
         if not 0 <= self.anomaly_rate <= 0.1:
             raise ValueError("anomaly_rate must be within [0, 0.1]")
 
