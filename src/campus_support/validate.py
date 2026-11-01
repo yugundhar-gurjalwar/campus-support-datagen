@@ -331,7 +331,12 @@ def check_domain(t: dict, as_of: datetime, rep: Report, expected: dict | None = 
 def validate(t: dict, as_of: datetime, expected: dict | None = None) -> Report:
     rep = Report()
     check_structure(t, rep)
-    check_domain(t, as_of, rep, expected)
+    try:
+        check_domain(t, as_of, rep, expected)
+    except (KeyError, TypeError, IndexError, ValueError, AttributeError) as exc:
+        # broken keys/types make deeper joins impossible: report it instead of crashing
+        rep.add("domain", "domain_checks_completed", [f"aborted by {type(exc).__name__}: {exc} "
+                                                      "(see structural failures above)"])
     return rep
 
 
