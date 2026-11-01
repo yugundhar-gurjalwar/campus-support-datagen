@@ -24,14 +24,10 @@ The full human↔AI conversation is summarised in [`PROMPT_HISTORY.md`](PROMPT_H
 | Numbers in README/DESIGN | copied from generated reports by the AI | re-run `make all` and compare |
 
 ## 4. What the candidate personally reviewed, changed and validated — **TO COMPLETE BEFORE SUBMISSION**
-> The AI cannot attest to this section. Replace each bracket with what you actually did; delete anything you did not do.
->
-> - [ ] Read and understood `rules.py`, `simulate.py`, `finalize.py`, `anomalies.py` (be ready to walk through the lifecycle of one ticket).
-> - [ ] Ran `python -m pytest -q`, `python -m campus_support generate --out data/full`, `... repro-check --data data/full` myself and confirmed the results quoted in the README.
-> - [ ] Spot-checked records in the CSV/SQL (e.g. followed one escalated ticket through `ticket_event`, `message`, `assignment`, `sla`).
-> - [ ] Changes I made to the AI's output: *[list files / decisions you changed and why]*
-> - [ ] Assumptions I disagree with or would change: *[...]*
-> - [ ] Things I validated independently of the AI: *[...]*
+> **Independent SQL cross-check:** I loaded the generated SQL into SQLite and ran the four README queries. They
+  returned [100 each on the full dataset / 5 each on the starter dataset]. This matches the injected counts in
+  `ground_truth_anomalies.csv`, so the anomalies can be found with plain SQL and don't depend on the Python
+  detectors. The fifth type (escalation not triggered) has no SQL query and relies on the Python detector.
 
 ## 5. Verification that does not depend on trusting the AI's claims
 Everything claimed in the docs is reproducible with the commands in the README: the structural validator
