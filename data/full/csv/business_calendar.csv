@@ -1,0 +1,3 @@
+calendar_id,name,timezone_label
+CAL-STD,Standard office hours (Mon-Fri 09:00-17:00),campus-local
+CAL-EXT,"Extended help-desk hours (Mon-Fri 08:00-20:00, Sat 10:00-14:00)",campus-local

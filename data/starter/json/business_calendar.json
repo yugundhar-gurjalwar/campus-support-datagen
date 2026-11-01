@@ -1,0 +1,4 @@
+[
+{"calendar_id": "CAL-STD", "name": "Standard office hours (Mon-Fri 09:00-17:00)", "timezone_label": "campus-local"},
+{"calendar_id": "CAL-EXT", "name": "Extended help-desk hours (Mon-Fri 08:00-20:00, Sat 10:00-14:00)", "timezone_label": "campus-local"}
+]

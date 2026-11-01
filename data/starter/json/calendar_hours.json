@@ -1,0 +1,13 @@
+[
+{"hours_id": "CH-CAL-STD-0", "calendar_id": "CAL-STD", "weekday": 0, "open_minute": 540, "close_minute": 1020},
+{"hours_id": "CH-CAL-STD-1", "calendar_id": "CAL-STD", "weekday": 1, "open_minute": 540, "close_minute": 1020},
+{"hours_id": "CH-CAL-STD-2", "calendar_id": "CAL-STD", "weekday": 2, "open_minute": 540, "close_minute": 1020},
+{"hours_id": "CH-CAL-STD-3", "calendar_id": "CAL-STD", "weekday": 3, "open_minute": 540, "close_minute": 1020},
+{"hours_id": "CH-CAL-STD-4", "calendar_id": "CAL-STD", "weekday": 4, "open_minute": 540, "close_minute": 1020},
+{"hours_id": "CH-CAL-EXT-0", "calendar_id": "CAL-EXT", "weekday": 0, "open_minute": 480, "close_minute": 1200},
+{"hours_id": "CH-CAL-EXT-1", "calendar_id": "CAL-EXT", "weekday": 1, "open_minute": 480, "close_minute": 1200},
+{"hours_id": "CH-CAL-EXT-2", "calendar_id": "CAL-EXT", "weekday": 2, "open_minute": 480, "close_minute": 1200},
+{"hours_id": "CH-CAL-EXT-3", "calendar_id": "CAL-EXT", "weekday": 3, "open_minute": 480, "close_minute": 1200},
+{"hours_id": "CH-CAL-EXT-4", "calendar_id": "CAL-EXT", "weekday": 4, "open_minute": 480, "close_minute": 1200},
+{"hours_id": "CH-CAL-EXT-5", "calendar_id": "CAL-EXT", "weekday": 5, "open_minute": 600, "close_minute": 840}
+]

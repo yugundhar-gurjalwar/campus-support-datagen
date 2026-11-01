@@ -1,0 +1,7 @@
+team_id,team_name,tier,domain,calendar_id,escalation_team_id,active
+TEAM-FIN,Financial Aid Office,1,FIN,CAL-STD,TEAM-ACADADM,true
+TEAM-REG,Registrar's Office,1,REG,CAL-STD,TEAM-ACADADM,true
+TEAM-IT,IT Help Desk,1,IT,CAL-EXT,TEAM-PLATFORM,true
+TEAM-ACC,Accessibility Services,1,ACC,CAL-STD,TEAM-ACADADM,true
+TEAM-ACADADM,Academic Administration Office,2,ADMIN,CAL-STD,,true
+TEAM-PLATFORM,Platform Administration,2,PLAT,CAL-EXT,,true

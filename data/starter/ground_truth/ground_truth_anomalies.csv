@@ -1,0 +1,26 @@
+label_id,ticket_id,entity_type,entity_id,issue_type,injected_field,original_value,injected_value,description
+GT-000001,TKT-2026-000004,message_claim,MSG-TKT-2026-000004-003,response_claims_unsupported_fact,claimed_value[doc_review_days],15,7,Response states doc_review_days=7 which no cited source supports
+GT-000002,TKT-2026-000034,message,MSG-TKT-2026-000034-003,answer_cites_expired_policy,message_citation.article_id,KB-000039,KB-000038,"Answer cites expired version v1 (ended 2025-06-07) instead of the version in force, v2"
+GT-000003,TKT-2026-000035,ticket,TKT-2026-000035,escalation_not_triggered,ticket_event.escalated,present,absent,Required escalation (human_review_required) never triggered; closed by tier 1
+GT-000004,TKT-2026-000036,assignment,ASG-TKT-2026-000036-01,ticket_routed_to_unauthorized_team,team_id,TEAM-IT,TEAM-ACC,"CAT-IT-01 ticket routed to TEAM-ACC, which is not authorised for that category"
+GT-000005,TKT-2026-000037,assignment,ASG-TKT-2026-000037-01,ticket_routed_to_unauthorized_team,team_id,TEAM-ACC,TEAM-REG,"CAT-ACC-04 ticket routed to TEAM-REG, which is not authorised for that category"
+GT-000006,TKT-2026-000055,message_claim,MSG-TKT-2026-000055-003,response_claims_unsupported_fact,claimed_value[min_credit_hours],9,3,Response states min_credit_hours=3 which no cited source supports
+GT-000007,TKT-2026-000067,assignment,ASG-TKT-2026-000067-01,ticket_routed_to_unauthorized_team,team_id,TEAM-IT,TEAM-ACC,"CAT-IT-02 ticket routed to TEAM-ACC, which is not authorised for that category"
+GT-000008,TKT-2026-000081,message_claim,MSG-TKT-2026-000081-004,response_claims_unsupported_fact,claimed_value[at_request_lead_days],10,7,Response states at_request_lead_days=7 which no cited source supports
+GT-000009,TKT-2026-000092,ticket,TKT-2026-000092,escalation_not_triggered,ticket_event.escalated,present,absent,Required escalation (human_review_required) never triggered; closed by tier 1
+GT-000010,TKT-2026-000094,assignment,ASG-TKT-2026-000094-01,ticket_routed_to_unauthorized_team,team_id,TEAM-IT,TEAM-ACC,"CAT-IT-01 ticket routed to TEAM-ACC, which is not authorised for that category"
+GT-000011,TKT-2026-000101,message_claim,MSG-TKT-2026-000101-003,response_claims_unsupported_fact,claimed_value[course_shell_open_days],7,10,Response states course_shell_open_days=10 which no cited source supports
+GT-000012,TKT-2026-000121,message,MSG-TKT-2026-000121-003,answer_cites_expired_policy,message_citation.article_id,KB-000020,KB-000018,"Answer cites expired version v2 (ended 2025-04-28) instead of the version in force, v4"
+GT-000013,TKT-2026-000147,sla,SLA-TKT-2026-000147,sla_clock_ignores_business_hours,calendar_mode,business_hours,calendar_24x7,SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar
+GT-000014,TKT-2026-000149,sla,SLA-TKT-2026-000149,sla_clock_ignores_business_hours,calendar_mode,business_hours,calendar_24x7,SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar
+GT-000015,TKT-2026-000156,ticket,TKT-2026-000156,escalation_not_triggered,ticket_event.escalated,present,absent,Required escalation (urgent_deadline) never triggered; closed by tier 1
+GT-000016,TKT-2026-000172,message,MSG-TKT-2026-000172-002,answer_cites_expired_policy,message_citation.article_id,KB-000040,KB-000039,"Answer cites expired version v2 (ended 2026-05-28) instead of the version in force, v3"
+GT-000017,TKT-2026-000179,message,MSG-TKT-2026-000179-002,answer_cites_expired_policy,message_citation.article_id,KB-000026,KB-000025,"Answer cites expired version v1 (ended 2026-05-19) instead of the version in force, v2"
+GT-000018,TKT-2026-000197,assignment,ASG-TKT-2026-000197-01,ticket_routed_to_unauthorized_team,team_id,TEAM-REG,TEAM-ACC,"CAT-REG-03 ticket routed to TEAM-ACC, which is not authorised for that category"
+GT-000019,TKT-2026-000203,sla,SLA-TKT-2026-000203,sla_clock_ignores_business_hours,calendar_mode,business_hours,calendar_24x7,SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar
+GT-000020,TKT-2026-000204,ticket,TKT-2026-000204,escalation_not_triggered,ticket_event.escalated,present,absent,Required escalation (urgent_deadline) never triggered; closed by tier 1
+GT-000021,TKT-2026-000216,ticket,TKT-2026-000216,escalation_not_triggered,ticket_event.escalated,present,absent,Required escalation (human_review_required) never triggered; closed by tier 1
+GT-000022,TKT-2026-000220,sla,SLA-TKT-2026-000220,sla_clock_ignores_business_hours,calendar_mode,business_hours,calendar_24x7,SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar
+GT-000023,TKT-2026-000225,message,MSG-TKT-2026-000225-004,answer_cites_expired_policy,message_citation.article_id,KB-000007,KB-000006,"Answer cites expired version v1 (ended 2026-02-01) instead of the version in force, v2"
+GT-000024,TKT-2026-000227,message_claim,MSG-TKT-2026-000227-003,response_claims_unsupported_fact,claimed_value[transcript_fee_usd],10,0,Response states transcript_fee_usd=0 which no cited source supports
+GT-000025,TKT-2026-000246,sla,SLA-TKT-2026-000246,sla_clock_ignores_business_hours,calendar_mode,business_hours,calendar_24x7,SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar

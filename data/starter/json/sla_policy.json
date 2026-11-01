@@ -1,0 +1,6 @@
+[
+{"sla_policy_id": "SLAP-URGENT", "priority": "urgent", "first_response_minutes": 60, "resolution_minutes": 480, "effective_from": "2025-01-01", "effective_to": null},
+{"sla_policy_id": "SLAP-HIGH", "priority": "high", "first_response_minutes": 240, "resolution_minutes": 1440, "effective_from": "2025-01-01", "effective_to": null},
+{"sla_policy_id": "SLAP-NORMAL", "priority": "normal", "first_response_minutes": 480, "resolution_minutes": 2400, "effective_from": "2025-01-01", "effective_to": null},
+{"sla_policy_id": "SLAP-LOW", "priority": "low", "first_response_minutes": 960, "resolution_minutes": 4800, "effective_from": "2025-01-01", "effective_to": null}
+]

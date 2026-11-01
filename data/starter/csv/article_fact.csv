@@ -1,0 +1,81 @@
+fact_id,article_id,fact_key,fact_value,unit
+FACT-000001,KB-000001,disbursement_lag_days,10,days
+FACT-000002,KB-000001,min_credit_hours,9,credits
+FACT-000003,KB-000002,disbursement_lag_days,10,days
+FACT-000004,KB-000002,min_credit_hours,12,credits
+FACT-000005,KB-000003,verification_deadline_days,21,days
+FACT-000006,KB-000003,doc_review_days,10,business days
+FACT-000007,KB-000004,verification_deadline_days,21,days
+FACT-000008,KB-000004,doc_review_days,15,business days
+FACT-000009,KB-000005,verification_deadline_days,45,days
+FACT-000010,KB-000005,doc_review_days,5,business days
+FACT-000011,KB-000006,sap_min_gpa,2.0,GPA
+FACT-000012,KB-000006,sap_appeal_window_days,14,days
+FACT-000013,KB-000007,sap_min_gpa,2.25,GPA
+FACT-000014,KB-000007,sap_appeal_window_days,14,days
+FACT-000015,KB-000008,payment_due_days,10,days
+FACT-000016,KB-000008,late_fee_pct,5.0,percent
+FACT-000017,KB-000009,payment_due_days,7,days
+FACT-000018,KB-000009,late_fee_pct,5.0,percent
+FACT-000019,KB-000010,add_deadline_day,5,term day
+FACT-000020,KB-000010,withdraw_deadline_day,50,term day
+FACT-000021,KB-000011,add_deadline_day,5,term day
+FACT-000022,KB-000011,withdraw_deadline_day,45,term day
+FACT-000023,KB-000012,add_deadline_day,5,term day
+FACT-000024,KB-000012,withdraw_deadline_day,60,term day
+FACT-000025,KB-000013,hold_clear_days,2,business days
+FACT-000026,KB-000013,prereq_override_approver,course instructor,
+FACT-000027,KB-000014,hold_clear_days,1,business days
+FACT-000028,KB-000014,prereq_override_approver,academic advisor,
+FACT-000029,KB-000015,transcript_processing_days,3,business days
+FACT-000030,KB-000015,transcript_fee_usd,5,USD
+FACT-000031,KB-000016,transcript_processing_days,2,business days
+FACT-000032,KB-000016,transcript_fee_usd,10,USD
+FACT-000033,KB-000017,grade_change_window_days,45,days
+FACT-000034,KB-000017,grade_change_approver,dean of the college,
+FACT-000035,KB-000018,grade_change_window_days,60,days
+FACT-000036,KB-000018,grade_change_approver,dean of the college,
+FACT-000037,KB-000019,grade_change_window_days,60,days
+FACT-000038,KB-000019,grade_change_approver,registrar,
+FACT-000039,KB-000020,grade_change_window_days,90,days
+FACT-000040,KB-000020,grade_change_approver,registrar,
+FACT-000041,KB-000021,password_expiry_days,180,days
+FACT-000042,KB-000021,lockout_minutes,30,minutes
+FACT-000043,KB-000022,password_expiry_days,365,days
+FACT-000044,KB-000022,lockout_minutes,30,minutes
+FACT-000045,KB-000023,lms_enroll_sync_hours,4,hours
+FACT-000046,KB-000023,course_shell_open_days,14,days
+FACT-000047,KB-000024,lms_enroll_sync_hours,4,hours
+FACT-000048,KB-000024,course_shell_open_days,7,days
+FACT-000049,KB-000025,wifi_device_limit,5,devices
+FACT-000050,KB-000025,software_license_days,180,days
+FACT-000051,KB-000026,wifi_device_limit,3,devices
+FACT-000052,KB-000026,software_license_days,180,days
+FACT-000053,KB-000027,incident_report_hours,48,hours
+FACT-000054,KB-000027,account_freeze_hours,48,hours
+FACT-000055,KB-000028,incident_report_hours,4,hours
+FACT-000056,KB-000028,account_freeze_hours,72,hours
+FACT-000057,KB-000029,intake_ack_days,2,business days
+FACT-000058,KB-000029,documentation_age_years,3,years
+FACT-000059,KB-000030,intake_ack_days,5,business days
+FACT-000060,KB-000030,documentation_age_years,3,years
+FACT-000061,KB-000031,intake_ack_days,3,business days
+FACT-000062,KB-000031,documentation_age_years,3,years
+FACT-000063,KB-000032,determination_days,15,business days
+FACT-000064,KB-000032,determination_appeal_days,30,days
+FACT-000065,KB-000033,determination_days,10,business days
+FACT-000066,KB-000033,determination_appeal_days,30,days
+FACT-000067,KB-000034,at_loan_days,90,days
+FACT-000068,KB-000034,at_request_lead_days,10,days
+FACT-000069,KB-000035,at_loan_days,30,days
+FACT-000070,KB-000035,at_request_lead_days,10,days
+FACT-000071,KB-000036,at_loan_days,60,days
+FACT-000072,KB-000036,at_request_lead_days,10,days
+FACT-000073,KB-000037,at_loan_days,90,days
+FACT-000074,KB-000037,at_request_lead_days,5,days
+FACT-000075,KB-000038,exam_request_days,3,days
+FACT-000076,KB-000038,extended_time_pct,50,percent
+FACT-000077,KB-000039,exam_request_days,5,days
+FACT-000078,KB-000039,extended_time_pct,50,percent
+FACT-000079,KB-000040,exam_request_days,3,days
+FACT-000080,KB-000040,extended_time_pct,50,percent

@@ -1,0 +1,17 @@
+policy_id,domain,title,category_id,owner_team_id,status,first_effective_date,retired_date,is_synthetic,source_note
+POL-FIN-2026-001,FIN,Aid status and disbursement: Standard Procedure,CAT-FIN-01,TEAM-FIN,active,2025-08-14,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-002,FIN,Verification documents: Standard Procedure,CAT-FIN-02,TEAM-FIN,active,2024-12-02,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-003,FIN,Satisfactory progress appeal: Standard Procedure,CAT-FIN-03,TEAM-FIN,active,2025-03-16,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-004,FIN,Tuition payment and refunds: Standard Procedure,CAT-FIN-04,TEAM-FIN,active,2024-12-02,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-001,REG,"Add, drop and withdraw: Standard Procedure",CAT-REG-01,TEAM-REG,active,2023-10-12,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-002,REG,Holds and prerequisites: Standard Procedure,CAT-REG-02,TEAM-REG,active,2025-07-14,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-003,REG,Transcripts and records: Standard Procedure,CAT-REG-03,TEAM-REG,active,2025-10-02,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-004,REG,Grade change and roster correction: Standard Procedure,CAT-REG-04,TEAM-REG,active,2023-11-13,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-001,IT,"Account, password and MFA: Standard Procedure",CAT-IT-01,TEAM-IT,active,2025-05-24,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-002,IT,LMS and course access: Standard Procedure,CAT-IT-02,TEAM-IT,active,2024-04-24,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-003,IT,Wi-Fi and software licenses: Standard Procedure,CAT-IT-03,TEAM-IT,active,2025-06-26,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-004,IT,Security incident: Standard Procedure,CAT-IT-04,TEAM-IT,active,2025-09-20,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-001,ACC,Accommodation intake information: Standard Procedure,CAT-ACC-01,TEAM-ACC,retired,2024-04-11,2026-05-10,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-002,ACC,Accommodation determination: Standard Procedure,CAT-ACC-02,TEAM-ACC,active,2024-12-06,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-003,ACC,Assistive technology: Standard Procedure,CAT-ACC-03,TEAM-ACC,active,2023-09-01,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-004,ACC,Exam accommodation logistics: Standard Procedure,CAT-ACC-04,TEAM-ACC,active,2024-05-21,,true,Synthetic policy authored by the generator; no external source or PII.

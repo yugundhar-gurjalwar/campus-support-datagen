@@ -1,0 +1,13 @@
+{
+ "generator_version": "1.0.0",
+ "seed": 20261022,
+ "tickets": 5000,
+ "articles": 200,
+ "messages": 20000,
+ "policies": 48,
+ "anomaly_rate": 0.02,
+ "window_start": "2026-01-05",
+ "window_end": "2026-10-23",
+ "as_of": "2026-10-31T23:59:00",
+ "command": "python -m campus_support generate --seed 20261022 --tickets 5000 --articles 200 --messages-per-ticket 4.0 --anomaly-rate 0.02 --out <DIR>"
+}

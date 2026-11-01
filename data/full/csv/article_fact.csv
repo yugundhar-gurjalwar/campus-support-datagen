@@ -1,0 +1,401 @@
+fact_id,article_id,fact_key,fact_value,unit
+FACT-000001,KB-000001,disbursement_lag_days,10,days
+FACT-000002,KB-000001,min_credit_hours,12,credits
+FACT-000003,KB-000002,disbursement_lag_days,10,days
+FACT-000004,KB-000002,min_credit_hours,9,credits
+FACT-000005,KB-000003,disbursement_lag_days,21,days
+FACT-000006,KB-000003,min_credit_hours,9,credits
+FACT-000007,KB-000004,min_credit_hours,6,credits
+FACT-000008,KB-000004,refund_payout_days,7,business days
+FACT-000009,KB-000005,min_credit_hours,12,credits
+FACT-000010,KB-000005,refund_payout_days,3,business days
+FACT-000011,KB-000006,min_credit_hours,6,credits
+FACT-000012,KB-000006,refund_payout_days,10,business days
+FACT-000013,KB-000007,min_credit_hours,12,credits
+FACT-000014,KB-000007,refund_payout_days,10,business days
+FACT-000015,KB-000008,refund_payout_days,3,business days
+FACT-000016,KB-000008,disbursement_lag_days,21,days
+FACT-000017,KB-000009,refund_payout_days,7,business days
+FACT-000018,KB-000009,disbursement_lag_days,10,days
+FACT-000019,KB-000010,refund_payout_days,10,business days
+FACT-000020,KB-000010,disbursement_lag_days,10,days
+FACT-000021,KB-000011,refund_payout_days,10,business days
+FACT-000022,KB-000011,disbursement_lag_days,14,days
+FACT-000023,KB-000012,refund_payout_days,10,business days
+FACT-000024,KB-000012,disbursement_lag_days,10,days
+FACT-000025,KB-000013,refund_payout_days,10,business days
+FACT-000026,KB-000013,disbursement_lag_days,21,days
+FACT-000027,KB-000014,verification_deadline_days,21,days
+FACT-000028,KB-000014,doc_review_days,5,business days
+FACT-000029,KB-000015,verification_deadline_days,30,days
+FACT-000030,KB-000015,doc_review_days,5,business days
+FACT-000031,KB-000016,verification_deadline_days,45,days
+FACT-000032,KB-000016,doc_review_days,5,business days
+FACT-000033,KB-000017,verification_deadline_days,30,days
+FACT-000034,KB-000017,doc_review_days,10,business days
+FACT-000035,KB-000018,verification_deadline_days,45,days
+FACT-000036,KB-000018,doc_review_days,10,business days
+FACT-000037,KB-000019,verification_deadline_days,30,days
+FACT-000038,KB-000019,doc_review_days,5,business days
+FACT-000039,KB-000020,doc_review_days,15,business days
+FACT-000040,KB-000020,tax_transcript_requirement,optional,
+FACT-000041,KB-000021,doc_review_days,10,business days
+FACT-000042,KB-000021,tax_transcript_requirement,optional,
+FACT-000043,KB-000022,doc_review_days,7,business days
+FACT-000044,KB-000022,tax_transcript_requirement,optional,
+FACT-000045,KB-000023,doc_review_days,5,business days
+FACT-000046,KB-000023,tax_transcript_requirement,optional,
+FACT-000047,KB-000024,tax_transcript_requirement,optional,
+FACT-000048,KB-000024,verification_deadline_days,21,days
+FACT-000049,KB-000025,tax_transcript_requirement,required,
+FACT-000050,KB-000025,verification_deadline_days,21,days
+FACT-000051,KB-000026,tax_transcript_requirement,optional,
+FACT-000052,KB-000026,verification_deadline_days,21,days
+FACT-000053,KB-000027,tax_transcript_requirement,required,
+FACT-000054,KB-000027,verification_deadline_days,14,days
+FACT-000055,KB-000028,tax_transcript_requirement,optional,
+FACT-000056,KB-000028,verification_deadline_days,21,days
+FACT-000057,KB-000029,sap_min_gpa,2.25,GPA
+FACT-000058,KB-000029,sap_appeal_window_days,14,days
+FACT-000059,KB-000030,sap_min_gpa,2.25,GPA
+FACT-000060,KB-000030,sap_appeal_window_days,21,days
+FACT-000061,KB-000031,sap_min_gpa,2.0,GPA
+FACT-000062,KB-000031,sap_appeal_window_days,21,days
+FACT-000063,KB-000032,sap_min_gpa,2.25,GPA
+FACT-000064,KB-000032,sap_appeal_window_days,21,days
+FACT-000065,KB-000033,sap_min_gpa,2.25,GPA
+FACT-000066,KB-000033,sap_appeal_window_days,10,days
+FACT-000067,KB-000034,sap_min_gpa,2.5,GPA
+FACT-000068,KB-000034,sap_appeal_window_days,10,days
+FACT-000069,KB-000035,sap_appeal_window_days,21,days
+FACT-000070,KB-000035,completion_rate_pct,75,percent
+FACT-000071,KB-000036,sap_appeal_window_days,30,days
+FACT-000072,KB-000036,completion_rate_pct,67,percent
+FACT-000073,KB-000037,sap_appeal_window_days,21,days
+FACT-000074,KB-000037,completion_rate_pct,67,percent
+FACT-000075,KB-000038,sap_appeal_window_days,30,days
+FACT-000076,KB-000038,completion_rate_pct,67,percent
+FACT-000077,KB-000039,completion_rate_pct,75,percent
+FACT-000078,KB-000039,sap_min_gpa,2.25,GPA
+FACT-000079,KB-000040,completion_rate_pct,67,percent
+FACT-000080,KB-000040,sap_min_gpa,2.0,GPA
+FACT-000081,KB-000041,completion_rate_pct,75,percent
+FACT-000082,KB-000041,sap_min_gpa,2.0,GPA
+FACT-000083,KB-000042,completion_rate_pct,67,percent
+FACT-000084,KB-000042,sap_min_gpa,2.0,GPA
+FACT-000085,KB-000043,completion_rate_pct,67,percent
+FACT-000086,KB-000043,sap_min_gpa,2.25,GPA
+FACT-000087,KB-000044,payment_due_days,21,days
+FACT-000088,KB-000044,late_fee_pct,2.0,percent
+FACT-000089,KB-000045,payment_due_days,14,days
+FACT-000090,KB-000045,late_fee_pct,2.0,percent
+FACT-000091,KB-000046,payment_due_days,14,days
+FACT-000092,KB-000046,late_fee_pct,5.0,percent
+FACT-000093,KB-000047,payment_due_days,7,days
+FACT-000094,KB-000047,late_fee_pct,5.0,percent
+FACT-000095,KB-000048,late_fee_pct,1.5,percent
+FACT-000096,KB-000048,refund_pct_week2,50,percent
+FACT-000097,KB-000049,late_fee_pct,1.5,percent
+FACT-000098,KB-000049,refund_pct_week2,75,percent
+FACT-000099,KB-000050,late_fee_pct,3.0,percent
+FACT-000100,KB-000050,refund_pct_week2,80,percent
+FACT-000101,KB-000051,late_fee_pct,2.0,percent
+FACT-000102,KB-000051,refund_pct_week2,60,percent
+FACT-000103,KB-000052,late_fee_pct,5.0,percent
+FACT-000104,KB-000052,refund_pct_week2,60,percent
+FACT-000105,KB-000053,late_fee_pct,1.5,percent
+FACT-000106,KB-000053,refund_pct_week2,60,percent
+FACT-000107,KB-000054,late_fee_pct,2.0,percent
+FACT-000108,KB-000054,refund_pct_week2,60,percent
+FACT-000109,KB-000055,refund_pct_week2,80,percent
+FACT-000110,KB-000055,payment_due_days,21,days
+FACT-000111,KB-000056,refund_pct_week2,50,percent
+FACT-000112,KB-000056,payment_due_days,21,days
+FACT-000113,KB-000057,refund_pct_week2,75,percent
+FACT-000114,KB-000057,payment_due_days,7,days
+FACT-000115,KB-000058,add_deadline_day,5,term day
+FACT-000116,KB-000058,withdraw_deadline_day,50,term day
+FACT-000117,KB-000059,add_deadline_day,10,term day
+FACT-000118,KB-000059,withdraw_deadline_day,50,term day
+FACT-000119,KB-000060,add_deadline_day,14,term day
+FACT-000120,KB-000060,withdraw_deadline_day,50,term day
+FACT-000121,KB-000061,withdraw_deadline_day,40,term day
+FACT-000122,KB-000061,drop_fee_usd,75,USD
+FACT-000123,KB-000062,withdraw_deadline_day,60,term day
+FACT-000124,KB-000062,drop_fee_usd,0,USD
+FACT-000125,KB-000063,withdraw_deadline_day,45,term day
+FACT-000126,KB-000063,drop_fee_usd,0,USD
+FACT-000127,KB-000064,withdraw_deadline_day,45,term day
+FACT-000128,KB-000064,drop_fee_usd,50,USD
+FACT-000129,KB-000065,withdraw_deadline_day,60,term day
+FACT-000130,KB-000065,drop_fee_usd,50,USD
+FACT-000131,KB-000066,withdraw_deadline_day,45,term day
+FACT-000132,KB-000066,drop_fee_usd,50,USD
+FACT-000133,KB-000067,withdraw_deadline_day,45,term day
+FACT-000134,KB-000067,drop_fee_usd,0,USD
+FACT-000135,KB-000068,drop_fee_usd,0,USD
+FACT-000136,KB-000068,add_deadline_day,5,term day
+FACT-000137,KB-000069,drop_fee_usd,75,USD
+FACT-000138,KB-000069,add_deadline_day,5,term day
+FACT-000139,KB-000070,drop_fee_usd,25,USD
+FACT-000140,KB-000070,add_deadline_day,5,term day
+FACT-000141,KB-000071,drop_fee_usd,50,USD
+FACT-000142,KB-000071,add_deadline_day,5,term day
+FACT-000143,KB-000072,drop_fee_usd,50,USD
+FACT-000144,KB-000072,add_deadline_day,14,term day
+FACT-000145,KB-000073,hold_clear_days,1,business days
+FACT-000146,KB-000073,prereq_override_approver,department chair,
+FACT-000147,KB-000074,hold_clear_days,5,business days
+FACT-000148,KB-000074,prereq_override_approver,department chair,
+FACT-000149,KB-000075,hold_clear_days,5,business days
+FACT-000150,KB-000075,prereq_override_approver,academic advisor,
+FACT-000151,KB-000076,hold_clear_days,2,business days
+FACT-000152,KB-000076,prereq_override_approver,academic advisor,
+FACT-000153,KB-000077,hold_clear_days,3,business days
+FACT-000154,KB-000077,prereq_override_approver,course instructor,
+FACT-000155,KB-000078,prereq_override_approver,academic advisor,
+FACT-000156,KB-000078,max_credit_load,19,credits
+FACT-000157,KB-000079,prereq_override_approver,course instructor,
+FACT-000158,KB-000079,max_credit_load,19,credits
+FACT-000159,KB-000080,prereq_override_approver,academic advisor,
+FACT-000160,KB-000080,max_credit_load,18,credits
+FACT-000161,KB-000081,prereq_override_approver,academic advisor,
+FACT-000162,KB-000081,max_credit_load,16,credits
+FACT-000163,KB-000082,max_credit_load,18,credits
+FACT-000164,KB-000082,hold_clear_days,2,business days
+FACT-000165,KB-000083,max_credit_load,19,credits
+FACT-000166,KB-000083,hold_clear_days,3,business days
+FACT-000167,KB-000084,max_credit_load,18,credits
+FACT-000168,KB-000084,hold_clear_days,3,business days
+FACT-000169,KB-000085,transcript_processing_days,5,business days
+FACT-000170,KB-000085,transcript_fee_usd,0,USD
+FACT-000171,KB-000086,transcript_processing_days,2,business days
+FACT-000172,KB-000086,transcript_fee_usd,0,USD
+FACT-000173,KB-000087,transcript_processing_days,5,business days
+FACT-000174,KB-000087,transcript_fee_usd,5,USD
+FACT-000175,KB-000088,transcript_processing_days,1,business days
+FACT-000176,KB-000088,transcript_fee_usd,8,USD
+FACT-000177,KB-000089,transcript_processing_days,5,business days
+FACT-000178,KB-000089,transcript_fee_usd,0,USD
+FACT-000179,KB-000090,transcript_fee_usd,0,USD
+FACT-000180,KB-000090,enrollment_letter_days,2,business days
+FACT-000181,KB-000091,transcript_fee_usd,5,USD
+FACT-000182,KB-000091,enrollment_letter_days,2,business days
+FACT-000183,KB-000092,enrollment_letter_days,3,business days
+FACT-000184,KB-000092,transcript_processing_days,2,business days
+FACT-000185,KB-000093,enrollment_letter_days,2,business days
+FACT-000186,KB-000093,transcript_processing_days,2,business days
+FACT-000187,KB-000094,grade_change_window_days,45,days
+FACT-000188,KB-000094,grade_change_approver,registrar,
+FACT-000189,KB-000095,grade_change_window_days,45,days
+FACT-000190,KB-000095,grade_change_approver,dean of the college,
+FACT-000191,KB-000096,grade_change_window_days,45,days
+FACT-000192,KB-000096,grade_change_approver,registrar,
+FACT-000193,KB-000097,grade_change_approver,registrar,
+FACT-000194,KB-000097,roster_correction_days,2,business days
+FACT-000195,KB-000098,grade_change_approver,registrar,
+FACT-000196,KB-000098,roster_correction_days,5,business days
+FACT-000197,KB-000099,roster_correction_days,3,business days
+FACT-000198,KB-000099,grade_change_window_days,60,days
+FACT-000199,KB-000100,roster_correction_days,3,business days
+FACT-000200,KB-000100,grade_change_window_days,90,days
+FACT-000201,KB-000101,roster_correction_days,2,business days
+FACT-000202,KB-000101,grade_change_window_days,90,days
+FACT-000203,KB-000102,roster_correction_days,2,business days
+FACT-000204,KB-000102,grade_change_window_days,60,days
+FACT-000205,KB-000103,password_expiry_days,180,days
+FACT-000206,KB-000103,lockout_minutes,60,minutes
+FACT-000207,KB-000104,password_expiry_days,90,days
+FACT-000208,KB-000104,lockout_minutes,60,minutes
+FACT-000209,KB-000105,password_expiry_days,365,days
+FACT-000210,KB-000105,lockout_minutes,15,minutes
+FACT-000211,KB-000106,password_expiry_days,365,days
+FACT-000212,KB-000106,lockout_minutes,30,minutes
+FACT-000213,KB-000107,lockout_minutes,30,minutes
+FACT-000214,KB-000107,mfa_method,hardware key,
+FACT-000215,KB-000108,lockout_minutes,15,minutes
+FACT-000216,KB-000108,mfa_method,sms code,
+FACT-000217,KB-000109,lockout_minutes,15,minutes
+FACT-000218,KB-000109,mfa_method,hardware key,
+FACT-000219,KB-000110,lockout_minutes,60,minutes
+FACT-000220,KB-000110,mfa_method,authenticator app,
+FACT-000221,KB-000111,mfa_method,authenticator app,
+FACT-000222,KB-000111,password_expiry_days,180,days
+FACT-000223,KB-000112,mfa_method,authenticator app,
+FACT-000224,KB-000112,password_expiry_days,365,days
+FACT-000225,KB-000113,mfa_method,sms code,
+FACT-000226,KB-000113,password_expiry_days,180,days
+FACT-000227,KB-000114,mfa_method,authenticator app,
+FACT-000228,KB-000114,password_expiry_days,180,days
+FACT-000229,KB-000115,mfa_method,authenticator app,
+FACT-000230,KB-000115,password_expiry_days,90,days
+FACT-000231,KB-000116,lms_enroll_sync_hours,24,hours
+FACT-000232,KB-000116,course_shell_open_days,14,days
+FACT-000233,KB-000117,lms_enroll_sync_hours,4,hours
+FACT-000234,KB-000117,course_shell_open_days,14,days
+FACT-000235,KB-000118,lms_enroll_sync_hours,4,hours
+FACT-000236,KB-000118,course_shell_open_days,7,days
+FACT-000237,KB-000119,lms_enroll_sync_hours,12,hours
+FACT-000238,KB-000119,course_shell_open_days,7,days
+FACT-000239,KB-000120,lms_enroll_sync_hours,12,hours
+FACT-000240,KB-000120,course_shell_open_days,14,days
+FACT-000241,KB-000121,course_shell_open_days,10,days
+FACT-000242,KB-000121,lms_storage_gb,5,GB
+FACT-000243,KB-000122,course_shell_open_days,7,days
+FACT-000244,KB-000122,lms_storage_gb,10,GB
+FACT-000245,KB-000123,course_shell_open_days,10,days
+FACT-000246,KB-000123,lms_storage_gb,10,GB
+FACT-000247,KB-000124,course_shell_open_days,7,days
+FACT-000248,KB-000124,lms_storage_gb,10,GB
+FACT-000249,KB-000125,lms_storage_gb,10,GB
+FACT-000250,KB-000125,lms_enroll_sync_hours,2,hours
+FACT-000251,KB-000126,lms_storage_gb,20,GB
+FACT-000252,KB-000126,lms_enroll_sync_hours,2,hours
+FACT-000253,KB-000127,lms_storage_gb,10,GB
+FACT-000254,KB-000127,lms_enroll_sync_hours,2,hours
+FACT-000255,KB-000128,lms_storage_gb,20,GB
+FACT-000256,KB-000128,lms_enroll_sync_hours,2,hours
+FACT-000257,KB-000129,lms_storage_gb,5,GB
+FACT-000258,KB-000129,lms_enroll_sync_hours,2,hours
+FACT-000259,KB-000130,wifi_device_limit,3,devices
+FACT-000260,KB-000130,software_license_days,365,days
+FACT-000261,KB-000131,wifi_device_limit,3,devices
+FACT-000262,KB-000131,software_license_days,180,days
+FACT-000263,KB-000132,wifi_device_limit,8,devices
+FACT-000264,KB-000132,software_license_days,180,days
+FACT-000265,KB-000133,software_license_days,180,days
+FACT-000266,KB-000133,vpn_requirement,optional,
+FACT-000267,KB-000134,software_license_days,365,days
+FACT-000268,KB-000134,vpn_requirement,optional,
+FACT-000269,KB-000135,software_license_days,180,days
+FACT-000270,KB-000135,vpn_requirement,optional,
+FACT-000271,KB-000136,software_license_days,365,days
+FACT-000272,KB-000136,vpn_requirement,required,
+FACT-000273,KB-000137,vpn_requirement,required,
+FACT-000274,KB-000137,wifi_device_limit,5,devices
+FACT-000275,KB-000138,vpn_requirement,optional,
+FACT-000276,KB-000138,wifi_device_limit,5,devices
+FACT-000277,KB-000139,vpn_requirement,required,
+FACT-000278,KB-000139,wifi_device_limit,5,devices
+FACT-000279,KB-000140,vpn_requirement,required,
+FACT-000280,KB-000140,wifi_device_limit,8,devices
+FACT-000281,KB-000141,vpn_requirement,required,
+FACT-000282,KB-000141,wifi_device_limit,5,devices
+FACT-000283,KB-000142,incident_report_hours,4,hours
+FACT-000284,KB-000142,account_freeze_hours,48,hours
+FACT-000285,KB-000143,incident_report_hours,24,hours
+FACT-000286,KB-000143,account_freeze_hours,24,hours
+FACT-000287,KB-000144,incident_report_hours,24,hours
+FACT-000288,KB-000144,account_freeze_hours,48,hours
+FACT-000289,KB-000145,incident_report_hours,12,hours
+FACT-000290,KB-000145,account_freeze_hours,48,hours
+FACT-000291,KB-000146,incident_report_hours,48,hours
+FACT-000292,KB-000146,account_freeze_hours,48,hours
+FACT-000293,KB-000147,account_freeze_hours,72,hours
+FACT-000294,KB-000147,phishing_report_channel,security portal,
+FACT-000295,KB-000148,account_freeze_hours,72,hours
+FACT-000296,KB-000148,phishing_report_channel,help desk phone line,
+FACT-000297,KB-000149,phishing_report_channel,report-phish button,
+FACT-000298,KB-000149,incident_report_hours,12,hours
+FACT-000299,KB-000150,phishing_report_channel,help desk phone line,
+FACT-000300,KB-000150,incident_report_hours,12,hours
+FACT-000301,KB-000151,intake_ack_days,5,business days
+FACT-000302,KB-000151,documentation_age_years,5,years
+FACT-000303,KB-000152,intake_ack_days,3,business days
+FACT-000304,KB-000152,documentation_age_years,5,years
+FACT-000305,KB-000153,intake_ack_days,3,business days
+FACT-000306,KB-000153,documentation_age_years,3,years
+FACT-000307,KB-000154,intake_ack_days,2,business days
+FACT-000308,KB-000154,documentation_age_years,3,years
+FACT-000309,KB-000155,intake_ack_days,2,business days
+FACT-000310,KB-000155,documentation_age_years,5,years
+FACT-000311,KB-000156,intake_ack_days,3,business days
+FACT-000312,KB-000156,documentation_age_years,5,years
+FACT-000313,KB-000157,intake_ack_days,5,business days
+FACT-000314,KB-000157,documentation_age_years,5,years
+FACT-000315,KB-000158,documentation_age_years,3,years
+FACT-000316,KB-000158,intake_meeting_days,14,days
+FACT-000317,KB-000159,documentation_age_years,3,years
+FACT-000318,KB-000159,intake_meeting_days,10,days
+FACT-000319,KB-000160,documentation_age_years,5,years
+FACT-000320,KB-000160,intake_meeting_days,10,days
+FACT-000321,KB-000161,intake_meeting_days,7,days
+FACT-000322,KB-000161,intake_ack_days,2,business days
+FACT-000323,KB-000162,intake_meeting_days,10,days
+FACT-000324,KB-000162,intake_ack_days,3,business days
+FACT-000325,KB-000163,intake_meeting_days,10,days
+FACT-000326,KB-000163,intake_ack_days,2,business days
+FACT-000327,KB-000164,intake_meeting_days,7,days
+FACT-000328,KB-000164,intake_ack_days,3,business days
+FACT-000329,KB-000165,intake_meeting_days,10,days
+FACT-000330,KB-000165,intake_ack_days,2,business days
+FACT-000331,KB-000166,intake_meeting_days,7,days
+FACT-000332,KB-000166,intake_ack_days,2,business days
+FACT-000333,KB-000167,determination_days,20,business days
+FACT-000334,KB-000167,determination_appeal_days,30,days
+FACT-000335,KB-000168,determination_days,15,business days
+FACT-000336,KB-000168,determination_appeal_days,14,days
+FACT-000337,KB-000169,determination_days,10,business days
+FACT-000338,KB-000169,determination_appeal_days,14,days
+FACT-000339,KB-000170,determination_appeal_days,14,days
+FACT-000340,KB-000170,interim_accommodation_days,10,days
+FACT-000341,KB-000171,determination_appeal_days,30,days
+FACT-000342,KB-000171,interim_accommodation_days,10,days
+FACT-000343,KB-000172,determination_appeal_days,21,days
+FACT-000344,KB-000172,interim_accommodation_days,15,days
+FACT-000345,KB-000173,interim_accommodation_days,30,days
+FACT-000346,KB-000173,determination_days,20,business days
+FACT-000347,KB-000174,interim_accommodation_days,30,days
+FACT-000348,KB-000174,determination_days,10,business days
+FACT-000349,KB-000175,interim_accommodation_days,15,days
+FACT-000350,KB-000175,determination_days,20,business days
+FACT-000351,KB-000176,interim_accommodation_days,10,days
+FACT-000352,KB-000176,determination_days,20,business days
+FACT-000353,KB-000177,at_loan_days,60,days
+FACT-000354,KB-000177,at_request_lead_days,7,days
+FACT-000355,KB-000178,at_loan_days,30,days
+FACT-000356,KB-000178,at_request_lead_days,7,days
+FACT-000357,KB-000179,at_loan_days,90,days
+FACT-000358,KB-000179,at_request_lead_days,7,days
+FACT-000359,KB-000180,at_loan_days,90,days
+FACT-000360,KB-000180,at_request_lead_days,10,days
+FACT-000361,KB-000181,at_request_lead_days,10,days
+FACT-000362,KB-000181,captioning_lead_days,5,days
+FACT-000363,KB-000182,at_request_lead_days,5,days
+FACT-000364,KB-000182,captioning_lead_days,5,days
+FACT-000365,KB-000183,at_request_lead_days,7,days
+FACT-000366,KB-000183,captioning_lead_days,5,days
+FACT-000367,KB-000184,at_request_lead_days,5,days
+FACT-000368,KB-000184,captioning_lead_days,5,days
+FACT-000369,KB-000185,captioning_lead_days,5,days
+FACT-000370,KB-000185,at_loan_days,30,days
+FACT-000371,KB-000186,captioning_lead_days,5,days
+FACT-000372,KB-000186,at_loan_days,90,days
+FACT-000373,KB-000187,captioning_lead_days,7,days
+FACT-000374,KB-000187,at_loan_days,90,days
+FACT-000375,KB-000188,captioning_lead_days,3,days
+FACT-000376,KB-000188,at_loan_days,30,days
+FACT-000377,KB-000189,captioning_lead_days,5,days
+FACT-000378,KB-000189,at_loan_days,30,days
+FACT-000379,KB-000190,exam_request_days,7,days
+FACT-000380,KB-000190,extended_time_pct,50,percent
+FACT-000381,KB-000191,exam_request_days,3,days
+FACT-000382,KB-000191,extended_time_pct,100,percent
+FACT-000383,KB-000192,exam_request_days,7,days
+FACT-000384,KB-000192,extended_time_pct,50,percent
+FACT-000385,KB-000193,exam_request_days,7,days
+FACT-000386,KB-000193,extended_time_pct,100,percent
+FACT-000387,KB-000194,extended_time_pct,50,percent
+FACT-000388,KB-000194,testing_center_close,20:00,
+FACT-000389,KB-000195,extended_time_pct,100,percent
+FACT-000390,KB-000195,testing_center_close,20:00,
+FACT-000391,KB-000196,extended_time_pct,50,percent
+FACT-000392,KB-000196,testing_center_close,17:00,
+FACT-000393,KB-000197,testing_center_close,18:00,
+FACT-000394,KB-000197,exam_request_days,3,days
+FACT-000395,KB-000198,testing_center_close,17:00,
+FACT-000396,KB-000198,exam_request_days,3,days
+FACT-000397,KB-000199,testing_center_close,20:00,
+FACT-000398,KB-000199,exam_request_days,3,days
+FACT-000399,KB-000200,testing_center_close,17:00,
+FACT-000400,KB-000200,exam_request_days,3,days

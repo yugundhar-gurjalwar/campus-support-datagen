@@ -1,0 +1,5 @@
+sla_policy_id,priority,first_response_minutes,resolution_minutes,effective_from,effective_to
+SLAP-URGENT,urgent,60,480,2025-01-01,
+SLAP-HIGH,high,240,1440,2025-01-01,
+SLAP-NORMAL,normal,480,2400,2025-01-01,
+SLAP-LOW,low,960,4800,2025-01-01,

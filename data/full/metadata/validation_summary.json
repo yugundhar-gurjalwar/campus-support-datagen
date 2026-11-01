@@ -1,0 +1,167 @@
+{
+ "passed": true,
+ "checks_total": 20,
+ "checks_failed": 0,
+ "checks": [
+  {
+   "category": "structure",
+   "name": "primary_key_unique",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "required_not_null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "type",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "allowed_enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "id_pattern",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "numeric_range",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "foreign_key",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "unique_column",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "structure",
+   "name": "unique_composite",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 89088
+  },
+  {
+   "category": "volume",
+   "name": "row_counts_match_config",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": null
+  },
+  {
+   "category": "ids",
+   "name": "deterministic_id_conventions",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 5000
+  },
+  {
+   "category": "dates",
+   "name": "date_ordering",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 5000
+  },
+  {
+   "category": "dates",
+   "name": "article_version_chain_contiguous",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 48
+  },
+  {
+   "category": "lifecycle",
+   "name": "lifecycle_transitions_and_sequences",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 5000
+  },
+  {
+   "category": "reconciliation",
+   "name": "derived_values_reconcile_to_source_records",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 5000
+  },
+  {
+   "category": "joins",
+   "name": "actor_role_term_assignment_joins",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 5000
+  },
+  {
+   "category": "joins",
+   "name": "citation_and_claim_integrity",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 5094
+  },
+  {
+   "category": "duplicates",
+   "name": "no_duplicate_tickets_or_messages",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 25000
+  },
+  {
+   "category": "exports",
+   "name": "sql_seed_loads_in_sqlite_with_foreign_keys_enforced",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 24
+  },
+  {
+   "category": "ground_truth",
+   "name": "ground_truth_never_present_in_input_tables",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "checked": 24
+  }
+ ]
+}

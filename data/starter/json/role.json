@@ -1,0 +1,7 @@
+[
+{"role_id": "ROLE-LEARNER", "role_name": "Learner", "role_group": "requester", "can_file_tickets": true, "can_resolve_tickets": false, "description": "Student making support requests."},
+{"role_id": "ROLE-INSTRUCTOR", "role_name": "Instructor", "role_group": "requester", "can_file_tickets": true, "can_resolve_tickets": false, "description": "Faculty member making support requests."},
+{"role_id": "ROLE-ACADADMIN", "role_name": "Academic Administrator", "role_group": "admin", "can_file_tickets": true, "can_resolve_tickets": true, "description": "Files requests and, when attached to the tier-2 team, decides escalated cases."},
+{"role_id": "ROLE-SUPPORT", "role_name": "Support Staff", "role_group": "staff", "can_file_tickets": false, "can_resolve_tickets": true, "description": "Tier-1 desk agent."},
+{"role_id": "ROLE-PLATADMIN", "role_name": "Platform Administrator", "role_group": "admin", "can_file_tickets": false, "can_resolve_tickets": true, "description": "Tier-2 platform/security handler."}
+]

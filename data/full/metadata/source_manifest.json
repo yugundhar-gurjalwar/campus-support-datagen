@@ -1,0 +1,12 @@
+{
+ "external_data_used": false,
+ "sources": [],
+ "statement": "All records are synthetic and produced by this generator from a fixed seed. No external dataset, scraped page, or personal data was used or redistributed; policy articles are authored by the generator (catalog.py). Names are drawn from small fictional pools and e-mails use the reserved example domain campus.example.edu.",
+ "schema_inspiration": [
+  "Generic public concepts of campus help-desk / ticketing workflows (no dataset retrieved)."
+ ],
+ "retrieval_date": null,
+ "license_terms": "Not applicable (no third-party data).",
+ "transformations": "None (no external input).",
+ "fields_discarded": "None (no external input)."
+}

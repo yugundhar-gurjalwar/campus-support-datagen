@@ -1,0 +1,159 @@
+{
+ "detection": {
+  "answer_cites_expired_policy": {
+   "injected": 100,
+   "detected": 100,
+   "true_positive": 100,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "ticket_routed_to_unauthorized_team": {
+   "injected": 100,
+   "detected": 100,
+   "true_positive": 100,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "response_claims_unsupported_fact": {
+   "injected": 100,
+   "detected": 100,
+   "true_positive": 100,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "sla_clock_ignores_business_hours": {
+   "injected": 100,
+   "detected": 100,
+   "true_positive": 100,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "escalation_not_triggered": {
+   "injected": 100,
+   "detected": 100,
+   "true_positive": 100,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  }
+ },
+ "unneeded_escalations": 0,
+ "expected_decision_accuracy_on_clean_tickets": {
+  "tickets": 4500,
+  "routing_team_pct": 100.0,
+  "priority_pct": 100.0,
+  "escalation_decision_pct": 100.0
+ },
+ "expected_escalation_reasons": {
+  "none": 4006,
+  "ambiguity_unresolved": 280,
+  "human_review_required": 500,
+  "urgent_deadline": 67,
+  "no_current_policy": 147
+ },
+ "acceptance_criteria": {
+  "answers_cite_current_sources_pct": 97.81,
+  "routing_consistent_pct": 98.0,
+  "unresolved_or_ambiguous_escalated_pct": 89.94,
+  "article_version_recorded_pct": 100.0,
+  "answers_with_at_least_one_citation_pct": 100.0
+ },
+ "operations": {
+  "tickets": 5000,
+  "by_status": {
+   "closed": 4965,
+   "in_progress": 5,
+   "resolved": 24,
+   "pending_requester": 6
+  },
+  "by_domain": {
+   "ACC": 676,
+   "IT": 1617,
+   "FIN": 1369,
+   "REG": 1338
+  },
+  "by_priority": {
+   "urgent": 270,
+   "normal": 3395,
+   "low": 571,
+   "high": 764
+  },
+  "by_channel": {
+   "portal": 2422,
+   "chat": 1127,
+   "email": 1126,
+   "phone": 325
+  },
+  "escalation_rate_pct": 17.88,
+  "escalations_by_reason": {
+   "ambiguity_unresolved": 280,
+   "human_review_required": 407,
+   "urgent_deadline": 60,
+   "no_current_policy": 147
+  },
+  "reopen_rate_pct": 3.38,
+  "resolution_codes": {
+   "answered_by_policy": 3957,
+   "resolved_after_escalation": 890,
+   "closed_no_response": 142,
+   "open": 11
+  },
+  "sla_by_priority": {
+   "high": {
+    "tickets": 764,
+    "first_response_breach_pct": 6.15,
+    "resolution_breach_pct": 25.26,
+    "median_first_response_min": 83,
+    "p90_first_response_min": 199
+   },
+   "low": {
+    "tickets": 571,
+    "first_response_breach_pct": 6.65,
+    "resolution_breach_pct": 11.21,
+    "median_first_response_min": 329,
+    "p90_first_response_min": 787
+   },
+   "normal": {
+    "tickets": 3395,
+    "first_response_breach_pct": 8.1,
+    "resolution_breach_pct": 13.67,
+    "median_first_response_min": 173,
+    "p90_first_response_min": 437
+   },
+   "urgent": {
+    "tickets": 270,
+    "first_response_breach_pct": 5.19,
+    "resolution_breach_pct": 34.07,
+    "median_first_response_min": 32,
+    "p90_first_response_min": 48
+   }
+  },
+  "feedback_rate_pct": 55.66,
+  "mean_rating": 4.55,
+  "mean_rating_by_group": {
+   "clean": 4.588,
+   "anomalous": 4.191
+  },
+  "messages_per_ticket": 4.0,
+  "citations": 5094,
+  "claims": 7551,
+  "case_coverage_tags": {
+   "urgent_deadline": 247,
+   "ambiguous": 957,
+   "requires_human_escalation": 994,
+   "deadline_72h": 282,
+   "conditional_routing_rule": 156,
+   "version_changed_before_answer": 22,
+   "outdated_or_withdrawn_policy": 147
+  }
+ }
+}

@@ -1,0 +1,14 @@
+[
+{"holiday_id": "HOL-20260101", "holiday_date": "2026-01-01", "name": "New Year's Day"},
+{"holiday_id": "HOL-20260119", "holiday_date": "2026-01-19", "name": "Winter Observance Day"},
+{"holiday_id": "HOL-20260216", "holiday_date": "2026-02-16", "name": "Presidents' Day"},
+{"holiday_id": "HOL-20260525", "holiday_date": "2026-05-25", "name": "Memorial Day"},
+{"holiday_id": "HOL-20260619", "holiday_date": "2026-06-19", "name": "Juneteenth"},
+{"holiday_id": "HOL-20260703", "holiday_date": "2026-07-03", "name": "Independence Day (observed)"},
+{"holiday_id": "HOL-20260907", "holiday_date": "2026-09-07", "name": "Labor Day"},
+{"holiday_id": "HOL-20261012", "holiday_date": "2026-10-12", "name": "Fall Observance Day"},
+{"holiday_id": "HOL-20261126", "holiday_date": "2026-11-26", "name": "Thanksgiving"},
+{"holiday_id": "HOL-20261127", "holiday_date": "2026-11-27", "name": "Thanksgiving Recess"},
+{"holiday_id": "HOL-20261224", "holiday_date": "2026-12-24", "name": "Winter Recess"},
+{"holiday_id": "HOL-20261225", "holiday_date": "2026-12-25", "name": "Winter Recess"}
+]

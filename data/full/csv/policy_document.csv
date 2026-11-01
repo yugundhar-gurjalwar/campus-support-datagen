@@ -1,0 +1,49 @@
+policy_id,domain,title,category_id,owner_team_id,status,first_effective_date,retired_date,is_synthetic,source_note
+POL-FIN-2026-001,FIN,Aid status and disbursement: Standard Procedure,CAT-FIN-01,TEAM-FIN,active,2024-03-07,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-002,FIN,Aid status and disbursement: Deadlines and Exceptions,CAT-FIN-01,TEAM-FIN,active,2024-11-18,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-003,FIN,Aid status and disbursement: Eligibility Criteria,CAT-FIN-01,TEAM-FIN,active,2022-01-23,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-004,FIN,Verification documents: Standard Procedure,CAT-FIN-02,TEAM-FIN,active,2022-12-16,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-005,FIN,Verification documents: Deadlines and Exceptions,CAT-FIN-02,TEAM-FIN,active,2024-03-13,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-006,FIN,Verification documents: Eligibility Criteria,CAT-FIN-02,TEAM-FIN,active,2022-05-17,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-007,FIN,Satisfactory progress appeal: Standard Procedure,CAT-FIN-03,TEAM-FIN,active,2022-10-24,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-008,FIN,Satisfactory progress appeal: Deadlines and Exceptions,CAT-FIN-03,TEAM-FIN,active,2024-03-06,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-009,FIN,Satisfactory progress appeal: Eligibility Criteria,CAT-FIN-03,TEAM-FIN,active,2024-01-04,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-010,FIN,Tuition payment and refunds: Standard Procedure,CAT-FIN-04,TEAM-FIN,active,2024-01-19,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-011,FIN,Tuition payment and refunds: Deadlines and Exceptions,CAT-FIN-04,TEAM-FIN,active,2021-05-29,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-FIN-2026-012,FIN,Tuition payment and refunds: Eligibility Criteria,CAT-FIN-04,TEAM-FIN,active,2024-04-02,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-001,REG,"Add, drop and withdraw: Standard Procedure",CAT-REG-01,TEAM-REG,active,2024-01-01,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-002,REG,"Add, drop and withdraw: Deadlines and Exceptions",CAT-REG-01,TEAM-REG,active,2020-08-11,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-003,REG,"Add, drop and withdraw: Eligibility Criteria",CAT-REG-01,TEAM-REG,active,2022-09-28,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-004,REG,Holds and prerequisites: Standard Procedure,CAT-REG-02,TEAM-REG,active,2021-12-02,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-005,REG,Holds and prerequisites: Deadlines and Exceptions,CAT-REG-02,TEAM-REG,active,2023-03-16,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-006,REG,Holds and prerequisites: Eligibility Criteria,CAT-REG-02,TEAM-REG,retired,2024-11-28,2026-06-07,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-007,REG,Transcripts and records: Standard Procedure,CAT-REG-03,TEAM-REG,active,2022-09-05,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-008,REG,Transcripts and records: Deadlines and Exceptions,CAT-REG-03,TEAM-REG,active,2024-10-29,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-009,REG,Transcripts and records: Eligibility Criteria,CAT-REG-03,TEAM-REG,active,2025-11-02,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-010,REG,Grade change and roster correction: Standard Procedure,CAT-REG-04,TEAM-REG,active,2023-07-05,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-011,REG,Grade change and roster correction: Deadlines and Exceptions,CAT-REG-04,TEAM-REG,active,2025-05-11,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-REG-2026-012,REG,Grade change and roster correction: Eligibility Criteria,CAT-REG-04,TEAM-REG,active,2023-09-07,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-001,IT,"Account, password and MFA: Standard Procedure",CAT-IT-01,TEAM-IT,active,2023-12-27,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-002,IT,"Account, password and MFA: Deadlines and Exceptions",CAT-IT-01,TEAM-IT,active,2023-10-27,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-003,IT,"Account, password and MFA: Eligibility Criteria",CAT-IT-01,TEAM-IT,active,2022-07-28,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-004,IT,LMS and course access: Standard Procedure,CAT-IT-02,TEAM-IT,active,2023-02-07,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-005,IT,LMS and course access: Deadlines and Exceptions,CAT-IT-02,TEAM-IT,retired,2023-07-11,2026-06-04,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-006,IT,LMS and course access: Eligibility Criteria,CAT-IT-02,TEAM-IT,active,2023-09-10,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-007,IT,Wi-Fi and software licenses: Standard Procedure,CAT-IT-03,TEAM-IT,active,2024-09-04,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-008,IT,Wi-Fi and software licenses: Deadlines and Exceptions,CAT-IT-03,TEAM-IT,retired,2022-08-31,2026-07-07,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-009,IT,Wi-Fi and software licenses: Eligibility Criteria,CAT-IT-03,TEAM-IT,active,2022-11-27,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-010,IT,Security incident: Standard Procedure,CAT-IT-04,TEAM-IT,active,2022-07-06,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-011,IT,Security incident: Deadlines and Exceptions,CAT-IT-04,TEAM-IT,active,2025-02-09,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-IT-2026-012,IT,Security incident: Eligibility Criteria,CAT-IT-04,TEAM-IT,active,2025-03-06,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-001,ACC,Accommodation intake information: Standard Procedure,CAT-ACC-01,TEAM-ACC,active,2020-11-01,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-002,ACC,Accommodation intake information: Deadlines and Exceptions,CAT-ACC-01,TEAM-ACC,active,2024-09-21,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-003,ACC,Accommodation intake information: Eligibility Criteria,CAT-ACC-01,TEAM-ACC,active,2021-12-10,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-004,ACC,Accommodation determination: Standard Procedure,CAT-ACC-02,TEAM-ACC,active,2024-01-13,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-005,ACC,Accommodation determination: Deadlines and Exceptions,CAT-ACC-02,TEAM-ACC,active,2024-11-07,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-006,ACC,Accommodation determination: Eligibility Criteria,CAT-ACC-02,TEAM-ACC,active,2022-04-27,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-007,ACC,Assistive technology: Standard Procedure,CAT-ACC-03,TEAM-ACC,retired,2023-06-24,2026-03-04,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-008,ACC,Assistive technology: Deadlines and Exceptions,CAT-ACC-03,TEAM-ACC,active,2024-02-06,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-009,ACC,Assistive technology: Eligibility Criteria,CAT-ACC-03,TEAM-ACC,active,2023-04-04,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-010,ACC,Exam accommodation logistics: Standard Procedure,CAT-ACC-04,TEAM-ACC,active,2024-03-13,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-011,ACC,Exam accommodation logistics: Deadlines and Exceptions,CAT-ACC-04,TEAM-ACC,active,2024-04-21,,true,Synthetic policy authored by the generator; no external source or PII.
+POL-ACC-2026-012,ACC,Exam accommodation logistics: Eligibility Criteria,CAT-ACC-04,TEAM-ACC,active,2023-12-13,,true,Synthetic policy authored by the generator; no external source or PII.

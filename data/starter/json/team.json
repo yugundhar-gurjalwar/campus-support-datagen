@@ -1,0 +1,8 @@
+[
+{"team_id": "TEAM-FIN", "team_name": "Financial Aid Office", "tier": 1, "domain": "FIN", "calendar_id": "CAL-STD", "escalation_team_id": "TEAM-ACADADM", "active": true},
+{"team_id": "TEAM-REG", "team_name": "Registrar's Office", "tier": 1, "domain": "REG", "calendar_id": "CAL-STD", "escalation_team_id": "TEAM-ACADADM", "active": true},
+{"team_id": "TEAM-IT", "team_name": "IT Help Desk", "tier": 1, "domain": "IT", "calendar_id": "CAL-EXT", "escalation_team_id": "TEAM-PLATFORM", "active": true},
+{"team_id": "TEAM-ACC", "team_name": "Accessibility Services", "tier": 1, "domain": "ACC", "calendar_id": "CAL-STD", "escalation_team_id": "TEAM-ACADADM", "active": true},
+{"team_id": "TEAM-ACADADM", "team_name": "Academic Administration Office", "tier": 2, "domain": "ADMIN", "calendar_id": "CAL-STD", "escalation_team_id": null, "active": true},
+{"team_id": "TEAM-PLATFORM", "team_name": "Platform Administration", "tier": 2, "domain": "PLAT", "calendar_id": "CAL-EXT", "escalation_team_id": null, "active": true}
+]

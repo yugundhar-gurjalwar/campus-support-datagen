@@ -1,0 +1,19 @@
+routing_rule_id,category_id,requester_role_id,target_team_id,priority_override,precedence,effective_from,effective_to,description
+RR-001,CAT-FIN-01,,TEAM-FIN,,10,2025-01-01,,Default: Aid status and disbursement -> TEAM-FIN
+RR-002,CAT-FIN-02,,TEAM-FIN,,10,2025-01-01,,Default: Verification documents -> TEAM-FIN
+RR-003,CAT-FIN-03,,TEAM-FIN,,10,2025-01-01,,Default: Satisfactory progress appeal -> TEAM-FIN
+RR-004,CAT-FIN-04,,TEAM-FIN,,10,2025-01-01,,Default: Tuition payment and refunds -> TEAM-FIN
+RR-005,CAT-REG-01,,TEAM-REG,,10,2025-01-01,,"Default: Add, drop and withdraw -> TEAM-REG"
+RR-006,CAT-REG-02,,TEAM-REG,,10,2025-01-01,,Default: Holds and prerequisites -> TEAM-REG
+RR-007,CAT-REG-03,,TEAM-REG,,10,2025-01-01,,Default: Transcripts and records -> TEAM-REG
+RR-008,CAT-REG-04,,TEAM-REG,,10,2025-01-01,,Default: Grade change and roster correction -> TEAM-REG
+RR-009,CAT-IT-01,,TEAM-IT,,10,2025-01-01,,"Default: Account, password and MFA -> TEAM-IT"
+RR-010,CAT-IT-02,,TEAM-IT,,10,2025-01-01,,Default: LMS and course access -> TEAM-IT
+RR-011,CAT-IT-03,,TEAM-IT,,10,2025-01-01,,Default: Wi-Fi and software licenses -> TEAM-IT
+RR-012,CAT-IT-04,,TEAM-IT,,10,2025-01-01,,Default: Security incident -> TEAM-IT
+RR-013,CAT-ACC-01,,TEAM-ACC,,10,2025-01-01,,Default: Accommodation intake information -> TEAM-ACC
+RR-014,CAT-ACC-02,,TEAM-ACC,,10,2025-01-01,,Default: Accommodation determination -> TEAM-ACC
+RR-015,CAT-ACC-03,,TEAM-ACC,,10,2025-01-01,,Default: Assistive technology -> TEAM-ACC
+RR-016,CAT-ACC-04,,TEAM-ACC,,10,2025-01-01,,Default: Exam accommodation logistics -> TEAM-ACC
+RR-017,CAT-IT-02,ROLE-INSTRUCTOR,TEAM-IT,high,20,2025-01-01,,Conditional: instructor LMS/course-access problems affect live classes -> high priority
+RR-018,CAT-REG-04,ROLE-INSTRUCTOR,TEAM-REG,high,20,2025-01-01,,Conditional: instructor grade-change petitions are prioritised

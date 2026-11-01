@@ -1,0 +1,6 @@
+role_id,role_name,role_group,can_file_tickets,can_resolve_tickets,description
+ROLE-LEARNER,Learner,requester,true,false,Student making support requests.
+ROLE-INSTRUCTOR,Instructor,requester,true,false,Faculty member making support requests.
+ROLE-ACADADMIN,Academic Administrator,admin,true,true,"Files requests and, when attached to the tier-2 team, decides escalated cases."
+ROLE-SUPPORT,Support Staff,staff,false,true,Tier-1 desk agent.
+ROLE-PLATADMIN,Platform Administrator,admin,false,true,Tier-2 platform/security handler.

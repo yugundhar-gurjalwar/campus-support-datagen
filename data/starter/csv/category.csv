@@ -1,0 +1,17 @@
+category_id,domain,domain_name,category_name,default_priority,human_review_required,deadline_sensitive,description
+CAT-FIN-01,FIN,financial_aid,Aid status and disbursement,normal,false,false,"Questions about award status, disbursement timing and refunds of excess aid."
+CAT-FIN-02,FIN,financial_aid,Verification documents,normal,false,true,"Verification requests, document uploads and review timelines."
+CAT-FIN-03,FIN,financial_aid,Satisfactory progress appeal,normal,true,false,Appeals after losing aid eligibility for academic progress; requires human decision.
+CAT-FIN-04,FIN,financial_aid,Tuition payment and refunds,normal,false,true,"Payment plans, due dates, late fees and tuition refunds."
+CAT-REG-01,REG,registration,"Add, drop and withdraw",normal,false,true,"Course add/drop windows, withdrawal deadlines and fees."
+CAT-REG-02,REG,registration,Holds and prerequisites,normal,false,false,"Registration holds, prerequisite overrides and credit-load limits."
+CAT-REG-03,REG,registration,Transcripts and records,low,false,false,"Official transcripts, enrollment verification and records requests."
+CAT-REG-04,REG,registration,Grade change and roster correction,normal,true,false,Grade change petitions and roster corrections; requires human approval.
+CAT-IT-01,IT,it,"Account, password and MFA",normal,false,false,"Sign-in problems, password resets and multi-factor authentication."
+CAT-IT-02,IT,it,LMS and course access,normal,false,false,"Course shells, enrollment sync and learning-platform access."
+CAT-IT-03,IT,it,Wi-Fi and software licenses,low,false,false,"Campus Wi-Fi registration, VPN and licensed software."
+CAT-IT-04,IT,it,Security incident,high,true,false,Compromised accounts and phishing; requires human security review.
+CAT-ACC-01,ACC,accessibility,Accommodation intake information,normal,false,false,How to start an accommodation request and what documentation is needed.
+CAT-ACC-02,ACC,accessibility,Accommodation determination,high,true,false,"Decisions, appeals and interim measures for accommodation requests; requires human decision."
+CAT-ACC-03,ACC,accessibility,Assistive technology,normal,false,false,"Assistive technology loans, captioning and alternative formats."
+CAT-ACC-04,ACC,accessibility,Exam accommodation logistics,high,false,true,Booking accommodated exams and testing-centre logistics.

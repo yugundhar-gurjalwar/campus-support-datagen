@@ -1,0 +1,2781 @@
+{
+ "ground_truth_expected": [
+  {
+   "ticket_id": "TKT-2026-000001",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000002",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000003",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": "KB-000031",
+   "case_tags": "urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000004",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000005",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000025",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000006",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000007",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000008",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000009",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000006",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000010",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000011",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000012",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000013",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000014",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000025",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000015",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000016",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000017",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-REG-2026-004",
+   "expected_article_id": "KB-000020",
+   "case_tags": "requires_human_escalation|conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000018",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000019",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000020",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-REG-2026-004",
+   "expected_article_id": "KB-000020",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000021",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000022",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000023",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000024",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000025",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000026",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000027",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": "KB-000031",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000028",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000029",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000030",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000031",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000032",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000033",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000034",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000035",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000007",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000036",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000037",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000038",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000039",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000040",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-IT-2026-004",
+   "expected_article_id": "KB-000027",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000041",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000042",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000025",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000043",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000044",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000045",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000046",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000025",
+   "case_tags": "ambiguous|urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000047",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": "KB-000031",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000048",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000049",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000050",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000051",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": "KB-000031",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000052",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000053",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000054",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000055",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000056",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000057",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000058",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000059",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000060",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous|deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000061",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000025",
+   "case_tags": "ambiguous|deadline_72h|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000062",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000063",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": "KB-000031",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000064",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000065",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000066",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000067",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000068",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000069",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000070",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000071",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000007",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000072",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-ACC-2026-002",
+   "expected_article_id": "KB-000033",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000073",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000074",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000075",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000076",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000077",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000078",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": "ambiguous|urgent_deadline|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000079",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000080",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000081",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000082",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000083",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000084",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000085",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000086",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000087",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000088",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000025",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000089",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": "urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000090",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000091",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000092",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-ACC-2026-002",
+   "expected_article_id": "KB-000033",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000093",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": "KB-000031",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000094",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000095",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000096",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000097",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000098",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000099",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000001",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000100",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000101",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000102",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000015",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000103",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000036",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000104",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000105",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000106",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000107",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000108",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000109",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000110",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000111",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000039",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000112",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000113",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000007",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000114",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000115",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000116",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000117",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000118",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000119",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000120",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000121",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-REG-2026-004",
+   "expected_article_id": "KB-000020",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000122",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000123",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000124",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000125",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": "ambiguous|deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000126",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000127",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000128",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000129",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000130",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": "version_changed_before_answer"
+  },
+  {
+   "ticket_id": "TKT-2026-000131",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000132",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000133",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000134",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000135",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000136",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000137",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000138",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000139",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-IT-2026-004",
+   "expected_article_id": "KB-000028",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000140",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000141",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000013",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000142",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000143",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000144",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000145",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000146",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000147",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000148",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000149",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000004",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000150",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000151",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000152",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000153",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000154",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000155",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000156",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "urgent",
+   "expected_escalation": true,
+   "expected_escalation_reason": "urgent_deadline",
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": "urgent_deadline|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000157",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000158",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000007",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000159",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000160",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000161",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000021",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000162",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000037",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000163",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000164",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000165",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000166",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000167",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000168",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000169",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000014",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000170",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000171",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000172",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000173",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": "ambiguous|deadline_72h|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000174",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000175",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000176",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000177",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000178",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-REG-2026-004",
+   "expected_article_id": "KB-000020",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000179",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000180",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000181",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000014",
+   "case_tags": "urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000182",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000183",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000184",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000185",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000186",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "no_current_policy",
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": null,
+   "case_tags": "outdated_or_withdrawn_policy|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000187",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000188",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000189",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000005",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000190",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000191",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-002",
+   "expected_article_id": "KB-000014",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000192",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000193",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000005",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000194",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000195",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000005",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000196",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-IT-2026-004",
+   "expected_article_id": "KB-000028",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000197",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000198",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000199",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000200",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000201",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000007",
+   "case_tags": "deadline_72h|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000202",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000203",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000204",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "urgent",
+   "expected_escalation": true,
+   "expected_escalation_reason": "urgent_deadline",
+   "expected_policy_id": "POL-FIN-2026-004",
+   "expected_article_id": "KB-000009",
+   "case_tags": "urgent_deadline|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000205",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000206",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000207",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000208",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000209",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000210",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000211",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000212",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000213",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000214",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000215",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000216",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-ACC-2026-002",
+   "expected_article_id": "KB-000033",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000217",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "no_current_policy",
+   "expected_policy_id": "POL-ACC-2026-001",
+   "expected_article_id": null,
+   "case_tags": "outdated_or_withdrawn_policy|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000218",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": "ambiguous|requires_human_escalation|conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000219",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000220",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-ACC-2026-002",
+   "expected_article_id": "KB-000033",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000221",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000222",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000223",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000224",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000005",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000225",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-FIN-2026-003",
+   "expected_article_id": "KB-000007",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000226",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000227",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-REG-2026-003",
+   "expected_article_id": "KB-000016",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000228",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000229",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000230",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-REG-2026-004",
+   "expected_article_id": "KB-000020",
+   "case_tags": "requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000231",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000232",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "normal",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-REG-2026-001",
+   "expected_article_id": "KB-000012",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000233",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000234",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000235",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-002",
+   "expected_article_id": "KB-000024",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000236",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000037",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000237",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": "ambiguous|urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000238",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "urgent",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": "urgent_deadline"
+  },
+  {
+   "ticket_id": "TKT-2026-000239",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000240",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000241",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-001",
+   "expected_article_id": "KB-000002",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000242",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000243",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "low",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-003",
+   "expected_article_id": "KB-000026",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000244",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": "ambiguous"
+  },
+  {
+   "ticket_id": "TKT-2026-000245",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "ambiguity_unresolved",
+   "expected_policy_id": "POL-ACC-2026-004",
+   "expected_article_id": "KB-000040",
+   "case_tags": "ambiguous|requires_human_escalation"
+  },
+  {
+   "ticket_id": "TKT-2026-000246",
+   "expected_team_id": "TEAM-FIN",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-FIN-2026-002",
+   "expected_article_id": "KB-000005",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000247",
+   "expected_team_id": "TEAM-REG",
+   "expected_priority": "high",
+   "expected_escalation": true,
+   "expected_escalation_reason": "human_review_required",
+   "expected_policy_id": "POL-REG-2026-004",
+   "expected_article_id": "KB-000020",
+   "case_tags": "requires_human_escalation|conditional_routing_rule"
+  },
+  {
+   "ticket_id": "TKT-2026-000248",
+   "expected_team_id": "TEAM-ACC",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-ACC-2026-003",
+   "expected_article_id": "KB-000037",
+   "case_tags": ""
+  },
+  {
+   "ticket_id": "TKT-2026-000249",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "high",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": "deadline_72h"
+  },
+  {
+   "ticket_id": "TKT-2026-000250",
+   "expected_team_id": "TEAM-IT",
+   "expected_priority": "normal",
+   "expected_escalation": false,
+   "expected_escalation_reason": null,
+   "expected_policy_id": "POL-IT-2026-001",
+   "expected_article_id": "KB-000022",
+   "case_tags": ""
+  }
+ ],
+ "ground_truth_anomalies": [
+  {
+   "label_id": "GT-000001",
+   "ticket_id": "TKT-2026-000004",
+   "entity_type": "message_claim",
+   "entity_id": "MSG-TKT-2026-000004-003",
+   "issue_type": "response_claims_unsupported_fact",
+   "injected_field": "claimed_value[doc_review_days]",
+   "original_value": "15",
+   "injected_value": "7",
+   "description": "Response states doc_review_days=7 which no cited source supports"
+  },
+  {
+   "label_id": "GT-000002",
+   "ticket_id": "TKT-2026-000034",
+   "entity_type": "message",
+   "entity_id": "MSG-TKT-2026-000034-003",
+   "issue_type": "answer_cites_expired_policy",
+   "injected_field": "message_citation.article_id",
+   "original_value": "KB-000039",
+   "injected_value": "KB-000038",
+   "description": "Answer cites expired version v1 (ended 2025-06-07) instead of the version in force, v2"
+  },
+  {
+   "label_id": "GT-000003",
+   "ticket_id": "TKT-2026-000035",
+   "entity_type": "ticket",
+   "entity_id": "TKT-2026-000035",
+   "issue_type": "escalation_not_triggered",
+   "injected_field": "ticket_event.escalated",
+   "original_value": "present",
+   "injected_value": "absent",
+   "description": "Required escalation (human_review_required) never triggered; closed by tier 1"
+  },
+  {
+   "label_id": "GT-000004",
+   "ticket_id": "TKT-2026-000036",
+   "entity_type": "assignment",
+   "entity_id": "ASG-TKT-2026-000036-01",
+   "issue_type": "ticket_routed_to_unauthorized_team",
+   "injected_field": "team_id",
+   "original_value": "TEAM-IT",
+   "injected_value": "TEAM-ACC",
+   "description": "CAT-IT-01 ticket routed to TEAM-ACC, which is not authorised for that category"
+  },
+  {
+   "label_id": "GT-000005",
+   "ticket_id": "TKT-2026-000037",
+   "entity_type": "assignment",
+   "entity_id": "ASG-TKT-2026-000037-01",
+   "issue_type": "ticket_routed_to_unauthorized_team",
+   "injected_field": "team_id",
+   "original_value": "TEAM-ACC",
+   "injected_value": "TEAM-REG",
+   "description": "CAT-ACC-04 ticket routed to TEAM-REG, which is not authorised for that category"
+  },
+  {
+   "label_id": "GT-000006",
+   "ticket_id": "TKT-2026-000055",
+   "entity_type": "message_claim",
+   "entity_id": "MSG-TKT-2026-000055-003",
+   "issue_type": "response_claims_unsupported_fact",
+   "injected_field": "claimed_value[min_credit_hours]",
+   "original_value": "9",
+   "injected_value": "3",
+   "description": "Response states min_credit_hours=3 which no cited source supports"
+  },
+  {
+   "label_id": "GT-000007",
+   "ticket_id": "TKT-2026-000067",
+   "entity_type": "assignment",
+   "entity_id": "ASG-TKT-2026-000067-01",
+   "issue_type": "ticket_routed_to_unauthorized_team",
+   "injected_field": "team_id",
+   "original_value": "TEAM-IT",
+   "injected_value": "TEAM-ACC",
+   "description": "CAT-IT-02 ticket routed to TEAM-ACC, which is not authorised for that category"
+  },
+  {
+   "label_id": "GT-000008",
+   "ticket_id": "TKT-2026-000081",
+   "entity_type": "message_claim",
+   "entity_id": "MSG-TKT-2026-000081-004",
+   "issue_type": "response_claims_unsupported_fact",
+   "injected_field": "claimed_value[at_request_lead_days]",
+   "original_value": "10",
+   "injected_value": "7",
+   "description": "Response states at_request_lead_days=7 which no cited source supports"
+  },
+  {
+   "label_id": "GT-000009",
+   "ticket_id": "TKT-2026-000092",
+   "entity_type": "ticket",
+   "entity_id": "TKT-2026-000092",
+   "issue_type": "escalation_not_triggered",
+   "injected_field": "ticket_event.escalated",
+   "original_value": "present",
+   "injected_value": "absent",
+   "description": "Required escalation (human_review_required) never triggered; closed by tier 1"
+  },
+  {
+   "label_id": "GT-000010",
+   "ticket_id": "TKT-2026-000094",
+   "entity_type": "assignment",
+   "entity_id": "ASG-TKT-2026-000094-01",
+   "issue_type": "ticket_routed_to_unauthorized_team",
+   "injected_field": "team_id",
+   "original_value": "TEAM-IT",
+   "injected_value": "TEAM-ACC",
+   "description": "CAT-IT-01 ticket routed to TEAM-ACC, which is not authorised for that category"
+  },
+  {
+   "label_id": "GT-000011",
+   "ticket_id": "TKT-2026-000101",
+   "entity_type": "message_claim",
+   "entity_id": "MSG-TKT-2026-000101-003",
+   "issue_type": "response_claims_unsupported_fact",
+   "injected_field": "claimed_value[course_shell_open_days]",
+   "original_value": "7",
+   "injected_value": "10",
+   "description": "Response states course_shell_open_days=10 which no cited source supports"
+  },
+  {
+   "label_id": "GT-000012",
+   "ticket_id": "TKT-2026-000121",
+   "entity_type": "message",
+   "entity_id": "MSG-TKT-2026-000121-003",
+   "issue_type": "answer_cites_expired_policy",
+   "injected_field": "message_citation.article_id",
+   "original_value": "KB-000020",
+   "injected_value": "KB-000018",
+   "description": "Answer cites expired version v2 (ended 2025-04-28) instead of the version in force, v4"
+  },
+  {
+   "label_id": "GT-000013",
+   "ticket_id": "TKT-2026-000147",
+   "entity_type": "sla",
+   "entity_id": "SLA-TKT-2026-000147",
+   "issue_type": "sla_clock_ignores_business_hours",
+   "injected_field": "calendar_mode",
+   "original_value": "business_hours",
+   "injected_value": "calendar_24x7",
+   "description": "SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar"
+  },
+  {
+   "label_id": "GT-000014",
+   "ticket_id": "TKT-2026-000149",
+   "entity_type": "sla",
+   "entity_id": "SLA-TKT-2026-000149",
+   "issue_type": "sla_clock_ignores_business_hours",
+   "injected_field": "calendar_mode",
+   "original_value": "business_hours",
+   "injected_value": "calendar_24x7",
+   "description": "SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar"
+  },
+  {
+   "label_id": "GT-000015",
+   "ticket_id": "TKT-2026-000156",
+   "entity_type": "ticket",
+   "entity_id": "TKT-2026-000156",
+   "issue_type": "escalation_not_triggered",
+   "injected_field": "ticket_event.escalated",
+   "original_value": "present",
+   "injected_value": "absent",
+   "description": "Required escalation (urgent_deadline) never triggered; closed by tier 1"
+  },
+  {
+   "label_id": "GT-000016",
+   "ticket_id": "TKT-2026-000172",
+   "entity_type": "message",
+   "entity_id": "MSG-TKT-2026-000172-002",
+   "issue_type": "answer_cites_expired_policy",
+   "injected_field": "message_citation.article_id",
+   "original_value": "KB-000040",
+   "injected_value": "KB-000039",
+   "description": "Answer cites expired version v2 (ended 2026-05-28) instead of the version in force, v3"
+  },
+  {
+   "label_id": "GT-000017",
+   "ticket_id": "TKT-2026-000179",
+   "entity_type": "message",
+   "entity_id": "MSG-TKT-2026-000179-002",
+   "issue_type": "answer_cites_expired_policy",
+   "injected_field": "message_citation.article_id",
+   "original_value": "KB-000026",
+   "injected_value": "KB-000025",
+   "description": "Answer cites expired version v1 (ended 2026-05-19) instead of the version in force, v2"
+  },
+  {
+   "label_id": "GT-000018",
+   "ticket_id": "TKT-2026-000197",
+   "entity_type": "assignment",
+   "entity_id": "ASG-TKT-2026-000197-01",
+   "issue_type": "ticket_routed_to_unauthorized_team",
+   "injected_field": "team_id",
+   "original_value": "TEAM-REG",
+   "injected_value": "TEAM-ACC",
+   "description": "CAT-REG-03 ticket routed to TEAM-ACC, which is not authorised for that category"
+  },
+  {
+   "label_id": "GT-000019",
+   "ticket_id": "TKT-2026-000203",
+   "entity_type": "sla",
+   "entity_id": "SLA-TKT-2026-000203",
+   "issue_type": "sla_clock_ignores_business_hours",
+   "injected_field": "calendar_mode",
+   "original_value": "business_hours",
+   "injected_value": "calendar_24x7",
+   "description": "SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar"
+  },
+  {
+   "label_id": "GT-000020",
+   "ticket_id": "TKT-2026-000204",
+   "entity_type": "ticket",
+   "entity_id": "TKT-2026-000204",
+   "issue_type": "escalation_not_triggered",
+   "injected_field": "ticket_event.escalated",
+   "original_value": "present",
+   "injected_value": "absent",
+   "description": "Required escalation (urgent_deadline) never triggered; closed by tier 1"
+  },
+  {
+   "label_id": "GT-000021",
+   "ticket_id": "TKT-2026-000216",
+   "entity_type": "ticket",
+   "entity_id": "TKT-2026-000216",
+   "issue_type": "escalation_not_triggered",
+   "injected_field": "ticket_event.escalated",
+   "original_value": "present",
+   "injected_value": "absent",
+   "description": "Required escalation (human_review_required) never triggered; closed by tier 1"
+  },
+  {
+   "label_id": "GT-000022",
+   "ticket_id": "TKT-2026-000220",
+   "entity_type": "sla",
+   "entity_id": "SLA-TKT-2026-000220",
+   "issue_type": "sla_clock_ignores_business_hours",
+   "injected_field": "calendar_mode",
+   "original_value": "business_hours",
+   "injected_value": "calendar_24x7",
+   "description": "SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar"
+  },
+  {
+   "label_id": "GT-000023",
+   "ticket_id": "TKT-2026-000225",
+   "entity_type": "message",
+   "entity_id": "MSG-TKT-2026-000225-004",
+   "issue_type": "answer_cites_expired_policy",
+   "injected_field": "message_citation.article_id",
+   "original_value": "KB-000007",
+   "injected_value": "KB-000006",
+   "description": "Answer cites expired version v1 (ended 2026-02-01) instead of the version in force, v2"
+  },
+  {
+   "label_id": "GT-000024",
+   "ticket_id": "TKT-2026-000227",
+   "entity_type": "message_claim",
+   "entity_id": "MSG-TKT-2026-000227-003",
+   "issue_type": "response_claims_unsupported_fact",
+   "injected_field": "claimed_value[transcript_fee_usd]",
+   "original_value": "10",
+   "injected_value": "0",
+   "description": "Response states transcript_fee_usd=0 which no cited source supports"
+  },
+  {
+   "label_id": "GT-000025",
+   "ticket_id": "TKT-2026-000246",
+   "entity_type": "sla",
+   "entity_id": "SLA-TKT-2026-000246",
+   "issue_type": "sla_clock_ignores_business_hours",
+   "injected_field": "calendar_mode",
+   "original_value": "business_hours",
+   "injected_value": "calendar_24x7",
+   "description": "SLA due dates and elapsed time computed on a 24x7 clock instead of the team's business calendar"
+  }
+ ]
+}
