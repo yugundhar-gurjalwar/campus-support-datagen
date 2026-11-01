@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "campus-support-datagen"
+version = "1.0.0"
+description = "Deterministic synthetic data generator, validator and evaluator for a campus support routing / policy-grounded answer / escalation workflow"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []          # standard library only, by design (reproducibility)
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+campus-support = "campus_support.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
