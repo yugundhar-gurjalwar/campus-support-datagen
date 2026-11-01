@@ -28,6 +28,12 @@ The full human↔AI conversation is summarised in [`PROMPT_HISTORY.md`](PROMPT_H
   returned [100 each on the full dataset / 5 each on the starter dataset]. This matches the injected counts in
   `ground_truth_anomalies.csv`, so the anomalies can be found with plain SQL and don't depend on the Python
   detectors. The fifth type (escalation not triggered) has no SQL query and relies on the Python detector.
+> - **Traced one escalated ticket end-to-end** (`TKT-2026-000005`) across `ticket`, `ticket_event`, `assignment`, `message`
+  and `sla`. Confirmed: two clarification requests → escalation for `ambiguity_unresolved` exactly 16 business hours
+  after the second request, hand-off to the tier-2 team, resolution and auto-close; `escalation_count` = 1 and
+  `message_count` = 7 match the underlying rows. This ticket also carries the injected "SLA ignores business hours"
+  defect (`calendar_mode = calendar_24x7`, due time 8 clock hours after creation), which I confirmed in
+  `ground_truth_anomalies.csv`. 
 
 ## 5. Verification that does not depend on trusting the AI's claims
 Everything claimed in the docs is reproducible with the commands in the README: the structural validator
